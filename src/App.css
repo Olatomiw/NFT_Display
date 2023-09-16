@@ -6,3 +6,29 @@ body{
   border: 1px solid black;
   margin-bottom: 20px;
 }
+.sponsor{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin:1rem auto;
+  width: 80%;
+}
+.sponsor div{
+  width: 30%;
+  display: flex;
+  justify-content: center;    
+  margin-bottom: 20px;
+  align-items: center;
+}
+.sponsor div img{
+  width: 50%;
+}
+.trustee{
+  margin-top: 5rem;
+}
+.trustee h1{
+  text-align: center;
+  color: white;
+  font-family: "ClashDisplay-SemiBold";
+  letter-spacing: .1rem;
+}

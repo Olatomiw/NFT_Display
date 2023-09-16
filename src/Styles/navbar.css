@@ -1,8 +1,8 @@
 @import url(./clash-display.css);
 .navbar{
-    padding: 0 2rem;
     display: flex;
     justify-content: space-between;
+    margin-left: 5%;
 }
 .logo{
     color: rgba(155, 81, 224, 1);
