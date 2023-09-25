@@ -1,6 +1,10 @@
 @import url(./Styles/clash-display.css);
 body{
   background-color: rgba(30, 30, 30, 1);
+  box-sizing: border-box;
+}
+.App{
+  box-sizing: border-box;
 }
 .person{ 
   border: 1px solid black;

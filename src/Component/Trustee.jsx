@@ -1,9 +1,9 @@
 import React from 'react'
-import meta from "./Assets/MetaMask-Emblem-500x281.png"
-import Mask from "./Assets/Mask group.png"
-import wallet from "./Assets/Group 78.png"
-import exodus from "./Assets/Exodus_Logo-094c6a5bbda24cb29c2f930dd254069f.png"
-import blue from "./Assets/horizontal_blue.png"
+import meta from "../Assets/MetaMask-Emblem-500x281.png"
+import Mask from "../Assets/Mask group.png"
+import wallet from "../Assets/Group 78.png"
+import exodus from "../Assets/Exodus_Logo-094c6a5bbda24cb29c2f930dd254069f.png"
+import blue from "../Assets/horizontal_blue.png"
 
 const Trustee = () => {
   return (

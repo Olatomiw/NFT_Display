@@ -1,0 +1,99 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card-cont{
+    background:linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+    border: 1px solid rgba(155, 81, 224, 1);
+    border-radius: 10px;
+    width: 30%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.img-section{
+    display: flex;
+    justify-content: center;
+}
+.txt-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+    color: white;
+}
+.img-section img{
+    width: 85%;
+}
+.main-collection{
+    margin-top: 10rem;
+}
+h3{
+    text-align: center;
+    color: white;
+    font-family: "ClashDisplay-Bold";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0em;
+    margin-bottom: 3rem;
+}
+h6{
+    font-family: "ClashDisplay-Semibold";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 5px;
+    letter-spacing: 0em;
+    margin: 1.5rem 0px;
+}
+p{
+    margin: auto 0px;
+    font-family: "ClashDisplay-Extralight";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+}
+.lower-section{
+    display: flex;
+    padding: 0px 25px;
+    justify-content: space-between;
+    color: white;
+}
+.lower-section h5{
+    margin: 0px;
+    font-family: "ClashDisplay-light";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.lower-section p{
+    font-family: 'ClashDisplay-Medium';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+button{
+    font-family: Clash Display;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: none;
+    background: rgba(155, 81, 224, 1);
+    width: 80%;
+    max-height: 50px;
+    padding: 10px;
+    border-radius: 60px;
+    gap: 10px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
