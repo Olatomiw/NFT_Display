@@ -13,6 +13,7 @@ import animoj5 from "./Assets/animoji-5.png"
 import animoj6 from "./Assets/animoji-6.png"
 import animoj7 from "./Assets/animoji-7.png"
 import animoj8 from "./Assets/animoji-8.png"
+import ethLogo from "./Assets/Icon/Crypto Logo -ETH.png"
 
 export const cards =[
     {
@@ -64,6 +65,55 @@ export const topCreators =[
     {
         name:"Lawal Ayodeji",
         img: animoj,
+        Price: "239.05ETH",
+        logo: ethLogo
+    },
+    {
+        name:"Lawal Ayodeji",
+        img: animoj1,
+        logo: ethLogo,
         Price: "239.05ETH"
-    }
+    },
+    {
+        name:"Lawal Ayodeji",
+        img: animoj2,
+        Price: "239.05ETH",
+        logo: ethLogo      
+    },
+    {
+        name:"Lawal Ayodeji",
+        img: animoj3,
+        Price: "239.05ETH",
+        logo: ethLogo
+    },
+    {
+        name:"Lawal Ayodeji",
+        img: animoj4,
+        Price: "239.05ETH",
+        logo: ethLogo
+    },
+    {
+        name:"Lawal Ayodeji",
+        img: animoj5,
+        Price: "239.05ETH",
+        logo: ethLogo
+    },
+    {
+        name:"Lawal Ayodeji",
+        img: animoj6,
+        Price: "239.05ETH",
+        logo: ethLogo
+    },
+    {
+        name:"Lawal Ayodeji",
+        img: animoj7,
+        Price: "239.05ETH",
+        logo: ethLogo
+    },
+    {
+        name:"Lawal Ayodeji",
+        img: animoj8,
+        Price: "239.05ETH",
+        logo: ethLogo
+    },
 ]

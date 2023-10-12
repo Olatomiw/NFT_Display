@@ -5,6 +5,7 @@
 }
 .card-cont{
     background:linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+    /* background-color: rgba(30, 30, 30, 1);  */
     border: 1px solid rgba(155, 81, 224, 1);
     border-radius: 10px;
     width: 30%;
@@ -29,7 +30,7 @@
 .main-collection{
     margin-top: 10rem;
 }
-h3{
+.main-collection h3{
     text-align: center;
     color: white;
     font-family: "ClashDisplay-Bold";
@@ -39,7 +40,7 @@ h3{
     letter-spacing: 0em;
     margin-bottom: 3rem;
 }
-h6{
+.main-collection h6{
     font-family: "ClashDisplay-Semibold";
     font-size: 18px;
     font-weight: 600;
@@ -47,7 +48,7 @@ h6{
     letter-spacing: 0em;
     margin: 1.5rem 0px;
 }
-p{
+.main-collection p{
     margin: auto 0px;
     font-family: "ClashDisplay-Extralight";
     font-size: 14px;
@@ -72,15 +73,15 @@ p{
 
 }
 .lower-section p{
-    font-family: 'ClashDisplay-Medium';
+    font-family: 'ClashDisplay-medium';
     font-size: 20px;
     font-weight: 600;
     line-height: 33px;
     letter-spacing: 0em;
     text-align: left;
 }
-button{
-    font-family: Clash Display;
+.main-collection button{
+    font-family: "ClashDisplay-medium";
     font-size: 16px;
     font-weight: 500;
     line-height: 26px;
@@ -96,4 +97,17 @@ button{
     margin: auto;
     text-align: center;
     color: white;
+}
+
+.more{
+    margin: auto;
+    margin-top: 20px;
+    width: 150px;
+    padding: 20px;
+    border:1px solid rgba(155, 81, 224, 1);
+    color: white;
+    border-radius: 60px;
+    background:linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+    font-family: "ClashDisplay-medium";
+    text-align: center;
 }

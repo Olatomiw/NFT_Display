@@ -2,7 +2,6 @@ import React from 'react'
 import {cards} from '../data'
 import "../Styles/card.css"
 
-
 const Collection = () => {
     const card_details = cards.map((card)=>{
     let button;
@@ -38,6 +37,7 @@ const Collection = () => {
         <div className='container'>
             {card_details}
         </div>
+        <div className='more'>See more</div>
     </div>
   )
 }

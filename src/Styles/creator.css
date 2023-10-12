@@ -1,0 +1,59 @@
+.creators{
+    border: 2px solid red;
+    color: white;
+    text-align: center;
+}
+.creator-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    align-self: center;
+    justify-self: center;
+    margin: auto;
+}
+.creator-card{
+    width: 28%;
+    margin-bottom: 40px;
+    margin-right: 15px;
+    display: flex;
+    border-radius: 10px;
+    padding: 7px 10px;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    border: 2px solid rgba(155, 81, 224, 1);
+}
+.text-sect{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text-sect p{
+    text-align: center;
+}
+.creators button{
+    font-family: "ClashDisplay-medium";
+    font-size: 16px;
+    line-height: 26px;
+    background: rgba(155, 81, 224, 1);
+    width: 20%;
+    color: white;
+    padding: 10px;
+    border-radius: 60px;
+    gap: 10px;
+    text-align: center;
+}
+.sell{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(155, 81, 224, 1);
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgba(155, 81, 224, 1); */
+    width: 75%;
+    padding: 4px 10px;
+    margin: auto;
+}
