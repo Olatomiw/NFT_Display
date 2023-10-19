@@ -40,7 +40,7 @@ const Footer=()=>{
 
   return(
     <div>
-      <p>Hello</p>
+     
     </div>
   )
 }

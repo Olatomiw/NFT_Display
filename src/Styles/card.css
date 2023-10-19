@@ -111,3 +111,41 @@
     font-family: "ClashDisplay-medium";
     text-align: center;
 }
+
+@media screen and (max-width:1000px) {
+    .lower-section{
+        padding: 0 10px;
+    }
+    .lower-section p{
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .card-cont{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .card-cont{
+        width: 100%;
+    }
+    .txt-section{
+        padding: 0 10px;
+    }
+    .txt-section h6{
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .img-section img{
+        width: 90%;
+    }
+}

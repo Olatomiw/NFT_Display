@@ -37,3 +37,12 @@ body{
   font-family: "ClashDisplay-SemiBold";
   letter-spacing: .1rem;
 }
+
+@media screen and (max-width:900px) {
+  .sponsor div{
+    width: 50%;
+  }
+  .sponsor div img{
+    width: 80%;
+  }
+}

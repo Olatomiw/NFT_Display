@@ -1,5 +1,4 @@
 .creators{
-    border: 2px solid red;
     color: white;
     text-align: center;
 }
@@ -8,8 +7,6 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 90%;
-    align-self: center;
-    justify-self: center;
     margin: auto;
 }
 .creator-card{
@@ -52,8 +49,31 @@
     border: 2px solid rgba(155, 81, 224, 1);
     align-items: center;
     justify-content: space-between;
-    /* background-color: rgba(155, 81, 224, 1); */
+    border-radius: 20px;
     width: 75%;
     padding: 4px 10px;
     margin: auto;
+}
+
+@media screen and (max-width:760px) {
+    .creator-card{
+        width: 35%;
+    }
+    .sell button{
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .creator-cont{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .creator-card{
+        flex-direction: column;
+    }
+    .sell button{
+        width: fit-content;
+        padding: 5px 15px;
+    }
 }
